@@ -1,0 +1,27 @@
+:root {
+    --bkg-color: rgb(0, 0, 0);
+    --main-color: rgb(175, 25, 25);
+    --hover-color: rgb(25, 25, 175);
+}
+
+/*--------------------------------
+Basic Styles, Fonts and Background
+--------------------------------*/
+
+body {
+    background-color: var(--bkg-color);
+    color: var(--main-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Brawler', serif;
+    font-variant: small-caps;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
