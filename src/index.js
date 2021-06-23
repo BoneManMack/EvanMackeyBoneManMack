@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import BoneManMack from './BoneManMack';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BoneManMack />
+    <Router>
+      <BoneManMack />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
