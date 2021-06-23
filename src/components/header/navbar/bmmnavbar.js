@@ -8,10 +8,10 @@ function BMMnavbar() {
         <nav class="nav-main">
             <div id="navbar">
                 <ul>
-                    <li><Link to="/" exact className="navbarLink"><h3>Home</h3></Link></li>
+                    <li><Link to="/" className="navbarLink"><h3>Home</h3></Link></li>
                     <li>
                         <div class="dropdown">
-                        <div id="menu" class="menu" tabindex="0">
+                        <div id="menu" className="menu navbarLink" tabindex="0">
                             <h3>Services</h3>
                         </div>
                         </div>
@@ -23,7 +23,7 @@ function BMMnavbar() {
             </div>
             <ul>
                 <div id="dropdown-container">
-                    <div id="myDropdown" class="dropdown-content">
+                    <div id="myDropdown" className="dropdown-content">
                         <li>
                             <div id="pandr"> 
                                 <Link to="/performance_and_recording" className="navbarLink"><h3>Performance and Recording</h3></Link>

@@ -34,12 +34,15 @@ nav > div > ul a {
     text-decoration: none;
     font-size: 1.5rem;
     color: var(--main-color);
-
 }
 
 nav > div > ul h3 {
     margin: 0;
     padding: 0;
+}
+
+.navbarLink > h3 {
+    font-size: 1.5rem;
 }
 
 a:hover, a:focus, a.on {
@@ -52,6 +55,7 @@ a:hover, a:focus, a.on {
     text-decoration: none;
     font-size: 1.5rem;
     color: var(--main-color);
+    cursor: pointer;
 }
 
 .menu:hover, .menu:focus{

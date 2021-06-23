@@ -1,0 +1,49 @@
+/*-----------------
+Main Display Layout
+-----------------*/
+
+#main {
+    float: left;
+    width: 60%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 20px;
+} 
+  
+#self-portrait {
+    width: 100%;
+}
+
+#rightimage {
+    float: right;
+    width: 25%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+  
+.cta {
+    text-align: center;
+}
+
+/*------------------------
+Main Display Mobile Layout
+------------------------*/
+
+@media (max-width: 800px) {
+    #rightimage, #main, .text, .video {
+        width: 90%;
+        float: none;
+    }
+  
+    #rightimage {
+        display: flex;
+        justify-content: center;
+        margin: 20px auto;
+        float: none;
+    }
+  
+    #self-portrait {
+        width: 90%;
+        margin: 0 auto
+    }
+}
