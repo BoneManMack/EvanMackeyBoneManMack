@@ -37,6 +37,11 @@ nav > div > ul a {
 
 }
 
+nav > div > ul h3 {
+    margin: 0;
+    padding: 0;
+}
+
 a:hover, a:focus, a.on {
     font-style: italic;
     color: var(--hover-color);
