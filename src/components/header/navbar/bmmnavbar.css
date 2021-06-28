@@ -65,7 +65,7 @@ a:hover, a:focus, a.on {
 }
 
 #dropdown-container {
-    height: 1.5rem;
+    height: 2rem;
 }
 
 .dropdown-content{
@@ -118,7 +118,7 @@ Navbar Dropdown Mobile Layout
 
 @media (max-width: 800px) {
     #dropdown-container {
-      height: 4.5rem;
+      height: 6rem;
     }
   
     .show {
