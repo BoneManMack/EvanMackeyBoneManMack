@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
 
 import './bmmnavbar.css';
 
 function BMMnavbar() {
+    const [ dropDownActive, setDropDownActive ] = useState(false);
+
     return(
         <nav class="nav-main">
             <div id="navbar">
@@ -11,7 +13,7 @@ function BMMnavbar() {
                     <li><Link to="/" className="navbarLink"><h3>Home</h3></Link></li>
                     <li>
                         <div class="dropdown">
-                        <div id="menu" className="menu navbarLink" tabindex="0">
+                        <div id="menu" className="menu navbarLink" tabindex="0" onClick={() => setDropDownActive(dropDownActive => !dropDownActive)}>
                             <h3>Services</h3>
                         </div>
                         </div>
@@ -23,7 +25,7 @@ function BMMnavbar() {
             </div>
             <ul>
                 <div id="dropdown-container">
-                    <div id="myDropdown" className="dropdown-content">
+                    <div id="myDropdown" className={`dropdown-content ${dropDownActive ? "show" : ""}`}>
                         <li>
                             <div id="pandr"> 
                                 <Link to="/performance_and_recording" className="navbarLink"><h3>Performance and Recording</h3></Link>
