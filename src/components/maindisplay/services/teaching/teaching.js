@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './teaching.css';
 import TeachingImg from './teaching_trombone_method_books.jpg';
 
 function BMMteach() {

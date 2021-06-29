@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './writingandarranging.css';
 import MusicWritingAndArranging from './writing_and_arranging_music_sheet_music_transcription.jpg';
 
 function BMMwanda() {

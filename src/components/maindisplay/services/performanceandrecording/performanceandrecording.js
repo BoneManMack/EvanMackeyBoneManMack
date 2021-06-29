@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './performanceandrecording.css';
-
 function BMMpandr() {
     return(
         <div>
