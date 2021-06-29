@@ -1,0 +1,65 @@
+/*-----------------
+Contact Page Styles
+-----------------*/
+
+label {
+    font-size: 1.25rem;
+}
+
+.label {
+    margin-bottom: .25rem;
+}
+
+.inputfield {
+    margin-top: .5rem;
+}
+
+.contactform {
+    margin: 0 auto;
+    width: 33.4%;
+    min-width: 400px;
+    text-align: center;
+    margin-top: 5em;
+    position: relative;
+  }
+  
+  #fullname, #email, #subject, #message {
+    min-width: 400px;
+    max-width: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+  }
+  
+  #message {
+    min-height: 10rem;
+    max-height: 10rem;
+  }
+  
+  #contactformsubmit {
+    margin-top: 1rem;
+    background-color: rgb(0,0,0);
+    border: 1px solid rgb(200, 25, 25);
+    color:rgb(200, 25, 25);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    padding: .25em .5em;
+  }
+  
+  #contactformsubmit:hover, #contactformsubmit:focus {
+    border: 1px solid rgb(25,25,200);
+    color:rgb(25,25,200);
+    font-style: italic;
+  }
+  
+  /*contact thank you page*/
+  
+  #thankyou {
+    text-align: center;
+    margin-top: 4em;
+    font-size: 3rem;
+  }
+  
+  #response {
+    text-align: center;
+    margin-top: 2em;
+  }
