@@ -47,18 +47,18 @@ function BMMcontact() {
                         <div className="label">
                             <label htmlFor="subject">Subject:</label>
                         </div>
-                        <div class="contactpageinput"><input type="text" id="subject" placeholder="Subject" required /></div>
+                        <div className="contactpageinput"><input type="text" id="subject" placeholder="Subject" required /></div>
                     </div>
                 </div>
-                <div class="contactformright">
+                <div className="contactformright">
                     <div className="inputfield">
                         <div className="label">
                             <label htmlFor="Message">Message:</label>
                         </div>
-                        <div class="contactpageinput"><textarea name="message" type="text" id="message" placeholder="Message" required /></div>
+                        <div className="contactpageinput"><textarea name="message" type="text" id="message" placeholder="Message" required /></div>
                     </div>
                     <div className="inputfield">
-                        <input type="checkbox" id="subscribe" />Subscribe to our monthly newsletter
+                        <input type="checkbox" name="subscribe" id="subscribe" />Subscribe to our monthly newsletter
                     </div>
                 </div>
                 <div>
