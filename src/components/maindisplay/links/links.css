@@ -1,0 +1,50 @@
+/*---------------
+Links Page Styles
+---------------*/
+
+.linkspage h2 {
+    text-align: center;
+}
+
+.linkspage h2 {
+    text-align: center;
+}
+
+.csmhref {
+    text-decoration: none;
+}
+
+table {
+    position:relative;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+caption {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+  
+td {
+    width: 7em;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+  
+td>a {
+    text-decoration: none;
+    color: rgb(200, 25, 25);
+}
+  
+a {
+    color: rgb(200, 25, 25);
+}
+
+@media (max-width: 400px) {
+    .linkspage {
+        margin-top: 8rem;
+    }
+}

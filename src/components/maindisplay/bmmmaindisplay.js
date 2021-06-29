@@ -8,6 +8,7 @@ import BMMpandr from './services/performanceandrecording/performanceandrecording
 import BMMwanda from './services/writingandarranging/writingandarranging';
 import BMMteach from './services/teaching/teaching';
 import BMMblog from './blog/bmmblog';
+import BMMlinks from './links/links';
 
 import BMMerror from './error/bmmerror';
 
@@ -21,6 +22,8 @@ function BMMmaindisplay() {
                     <Route path="/writing_and_arranging" component={BMMwanda} />
                     <Route path="/teaching" component={BMMteach} />
                     <Route path="/blog" component={BMMblog} />
+                    <Route path="/links" component={BMMlinks} />
+
                     <Route path="*" component={BMMerror} />
                 </Switch>
             </main>
@@ -32,7 +35,7 @@ function BMMmaindisplay() {
                     
                     
                     
-                    <Route path="/links" component={BMMlinks} />
+                    
                     <Route path="/contact" component={BMMcontact} />
 ----------------------------------------------------------------------------------*/
 
