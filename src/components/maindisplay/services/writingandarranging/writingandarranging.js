@@ -8,7 +8,7 @@ function BMMwanda() {
         <div>
             <div className="container">
                 <div id="wandaimg" class="video">
-                    <img src={MusicWritingAndArranging} alt="Written, arranged, or transcribed sheet music" id="sheetmusicimg" />
+                    <img src={MusicWritingAndArranging} alt="Written, arranged, or transcribed sheet music" className="subsectionimg" />
                 </div>
                 <div id="wandatxt" class="text">
                     <h2>Writing and Arranging</h2>

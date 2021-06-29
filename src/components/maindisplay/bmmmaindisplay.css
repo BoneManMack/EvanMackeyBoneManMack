@@ -20,9 +20,69 @@ Main Display Layout
     margin-right: 5%;
     margin-top: 20px;
 }
-  
+
+.subsectionimg {
+    width: 40rem;
+}
+
+.text {
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 80ch;
+}
+
+.video {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+}
+
 .cta {
     text-align: center;
+}
+
+/*----------------------------------
+Performance and Recording Grid Names
+----------------------------------*/
+
+#prat1 {
+    grid-area: prat1;
+}
+
+#prat2 {
+    grid-area: prat2;
+}
+
+#prav1 {
+    grid-area: prav1;
+}
+
+#prav2 {
+    grid-area: prav2;
+}
+
+/*------------------------------
+Writing and Arranging Grid Names
+------------------------------*/
+
+#wandaimg {
+    grid-area: wandaimg;
+}
+
+#wandatxt {
+    grid-area: wandatxt;
+}
+
+/*-----------------
+Teaching Grid Names
+-----------------*/
+
+#teachtxt {
+    grid-area: teachtxt;
+}
+
+#teachimg {
+    grid-area: teachimg;
 }
 
 /*------------------------
@@ -45,5 +105,28 @@ Main Display Mobile Layout
     #self-portrait {
         width: 90%;
         margin: 0 auto
+    }
+}
+
+/*---------------------
+Services Desktop Layout
+---------------------*/
+
+@media screen and (min-width: 1170px) {
+    .subsectionimg {
+        width: 35rem;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 35rem 35rem 1fr;
+      grid-gap: 1rem;
+      grid-template-areas: 
+      ". prat1 prav1 ."
+      ". prav2 prat2 ."
+      ". wandaimg wandatxt ."
+      ". teachtxt teachimg .";
+      width: 90%;
+      margin: 0 auto;
     }
 }
