@@ -17,7 +17,9 @@ function BMMpandr() {
                 </div>
                 <div id="prav1" className="video">
                         <aside>
-                            <iframe className="video-embed" width="560" height="315" src="https://www.youtube.com/embed/8RSfKlcDMEc" 
+                            <iframe className="video-embed" 
+                                title="The Cliff Beach Band - Confident"
+                                width="560" height="315" src="https://www.youtube.com/embed/8RSfKlcDMEc" 
                                 frameborder="0" 
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowfullscreen />
@@ -36,7 +38,9 @@ function BMMpandr() {
                 </div>
                 <div id="prav2" className="video">
                     <aside>
-                        <iframe className="video-embed" width="560" height="315" src="https://www.youtube.com/embed/O1Q5uQg2xAQ" 
+                        <iframe className="video-embed" 
+                            title="The Urban Renewal Project - Shake Those Hips"
+                            width="560" height="315" src="https://www.youtube.com/embed/O1Q5uQg2xAQ" 
                             frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                             allowfullscreen />
